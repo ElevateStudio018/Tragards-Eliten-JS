@@ -1,0 +1,22 @@
+/* Förslag 1 – Klassisk. Vit, skogsgrön, varumärkets limegröna som accent. */
+:root {
+  --bg: #ffffff;
+  --surface: #f3f6f0;
+  --primary: #1f4d2b;
+  --primary-hover: #163a20;
+  --accent: #cddc39;
+}
+.hero { padding: 64px 0 88px; }
+.hero-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; align-items: center; }
+.hero h1 { margin-top: 22px; }
+.hero-media { position: relative; }
+.hero-media .photo { aspect-ratio: 4 / 4.4; border-radius: 28px; }
+.float-card { position: absolute; left: -28px; bottom: 36px; display: flex; align-items: center; gap: 14px; background: #fff; padding: 14px 22px 14px 14px; border-radius: 18px; box-shadow: var(--shadow); }
+.float-card .icon { margin: 0; width: 46px; height: 46px; background: var(--accent); color: var(--text); }
+.float-card b { display: block; font-size: 12px; font-weight: 500; color: var(--muted); }
+.float-card span { font-weight: 600; }
+.about-photo { border-radius: 28px; }
+@media (max-width: 960px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .float-card { left: 16px; bottom: 16px; }
+}

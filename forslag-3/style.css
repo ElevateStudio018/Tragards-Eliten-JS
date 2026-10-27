@@ -1,0 +1,53 @@
+/* Förslag 3 – Mörk. Nästan svart med varumärkets limegröna. */
+:root {
+  --bg: #111511;
+  --surface: #181e19;
+  --card: #1c231d;
+  --text: #f2f4ef;
+  --muted: #a4ada4;
+  --border: #2a332b;
+  --primary: #cddc39;
+  --primary-hover: #dbe85a;
+  --on-primary: #111511;
+  --accent: #cddc39;
+  --on-accent: #111511;
+  --shadow: 0 20px 50px -20px rgba(0, 0, 0, .6);
+}
+.eyebrow { color: var(--accent); }
+.btn-outline:hover { background: var(--text); color: var(--bg); }
+.icon { background: rgba(205, 220, 57, .12); color: var(--accent); }
+.hero { padding: 64px 0 96px; }
+.hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+.hero h1 { margin-top: 22px; }
+.hero .pill { background: var(--card); }
+.stats { display: flex; gap: 12px; margin: 40px 0 0; }
+.stats div { flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 16px 18px; }
+.stats dt { font-size: 13px; color: var(--muted); }
+.stats dd { margin: 2px 0 0; font-size: 26px; font-weight: 600; color: var(--accent); }
+.collage { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.collage .photo { aspect-ratio: 3 / 4.4; border-radius: 24px; }
+.collage .c2 { margin-top: 56px; }
+.about-top { display: grid; grid-template-columns: 1fr 1.3fr; gap: 48px; margin-bottom: 40px; }
+.photo.wide { aspect-ratio: 16 / 7; border-radius: 28px; }
+.photo.wide img { object-position: center 60%; }
+.person .btn-outline { color: var(--text); }
+.form input, .form textarea { background: var(--surface); }
+.form input::placeholder, .form textarea::placeholder { color: #6f7a70; }
+.tec-input-wrap, .tec-preset { background: var(--surface); }
+.tec-seg-opt input:checked + span { background: var(--primary); color: var(--on-primary); }
+.tec-check-box { background: #3a453b; }
+.tec-check-box::after { background: #fff; }
+.tec-check input:checked + .tec-check-box::after { background: var(--bg); }
+.tec-step { background: var(--card); }
+.tec-step:hover { color: var(--on-primary); }
+.tec-bd-rut { color: var(--accent); }
+.tec-total-value { color: var(--accent); }
+.socials a { background: var(--card); }
+.socials a:hover { color: var(--on-primary); }
+@media (max-width: 960px) {
+  .hero-grid, .about-top { grid-template-columns: 1fr; gap: 32px; }
+}
+@media (max-width: 760px) {
+  .stats { flex-wrap: wrap; }
+  .photo.wide { aspect-ratio: 4 / 3; }
+}

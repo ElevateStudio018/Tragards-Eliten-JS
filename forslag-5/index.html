@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trädgårdseliten JS – Finskötsel för privatpersoner och företag</title>
+<meta name="description" content="Trädgårdseliten JS erbjuder kvalitativ skötsel av trädgårdar och utemiljöer för privatpersoner och företag. Häckklippning, gräsklippning, beskärning och höststädning. Räkna ut ditt pris direkt.">
+<link rel="icon" href="../assets/img/ikon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/base.css">
+<link rel="stylesheet" href="style.css">
+<script src="../shared/te.js" defer></script>
+<script src="../shared/switcher.js" defer></script>
+</head>
+<body id="top">
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="nav-logo" href="#top"><img src="../assets/img/logo.png" alt="Trädgårdseliten JS" width="425" height="77"></a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Meny"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav-links" aria-label="Huvudmeny">
+      <a href="#tjanster">Tjänster</a>
+      <a href="#hack">Häckklippning</a>
+      <a href="#pris">Prisräknare</a>
+      <a href="#om">Om oss</a>
+      <a class="btn btn-primary btn-sm" href="#kontakt">Kontakta oss</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="pill light"><span class="dot"></span><span>Populärt just nu: häckklippning!</span></span>
+      <h1>Din trädgård i trygga händer</h1>
+      <p class="lead">Trädgårdseliten JS erbjuder kvalitativ skötsel av trädgårdar och utemiljöer för privatpersoner och företag.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#pris"><svg viewBox="0 0 24 24" aria-hidden="true" class="i"><rect x="4" y="2.5" width="16" height="19" rx="3"/><path d="M8 7h8M8 11.5h.01M12 11.5h.01M16 11.5h.01M8 15.5h.01M12 15.5h.01M16 15.5h.01"/></svg> Räkna ut ditt pris</a>
+        <a class="btn btn-light" href="#kontakt">Kontakta oss idag</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo"><img src="../assets/img/teamet.jpg" alt="David och Lukas med bil och släp" width="1600" height="1066"></div>
+      <div class="hero-badge"><b data-te="season-title"></b><span>Just nu i <span data-te="season-month"></span></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container grid grid-3">
+<article class="card"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><h3>Resultat</h3><p>För oss är resultatet det viktigaste. Vi lägger stor vikt vid kvaliteten i det vi gör – vi gör Sverige till en vackrare plats!</p></article>
+<article class="card"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg></span><h3>Personlig kontakt</h3><p>Vi värdesätter kommunikation och relationer. Vi har en god dialog med våra kunder, från första kontakt till färdigt resultat.</p></article>
+<article class="card"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg></span><h3>18-åringar med ett enormt driv</h3><p>Vi är två 18-åringar som har startat och driver Trädgårdseliten. Vi har ett enormt driv för att göra våra kunder nöjda.</p></article>
+  </div>
+</section>
+
+<section id="tjanster" class="section section-alt">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Tjänster</span><h2>Vi hjälper dig med</h2></div>
+    <div class="grid grid-3">
+<article class="card service" data-te-service="hack"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20v-3M18 20v-3"/><rect x="3" y="5" width="18" height="12" rx="4"/><path d="M8 9.5h.01M12 8h.01M16 10h.01M10 13h.01M14 12.5h.01"/></svg></span><span class="season-tag">Passar nu</span><h3>Häckklippning</h3><p>Vi utför alla typer av häckarbeten med fokus på resultat. Raka sidor, jämn topp och klippet bortforslat.</p></article>
+<article class="card service" data-te-service="gras"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20h18M6 20c0-5 1-8 3-11M10 20c0-6-1-10-3-13M14 20c0-5 1.5-9 4-12M18 20c0-4-1-7-3-9"/></svg></span><span class="season-tag">Passar nu</span><h3>Gräsklippning</h3><p>Klippning och kantklippning – som engångsjobb eller enligt schema hela säsongen.</p></article>
+<article class="card service" data-te-service="buskar"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="8.5" cy="12" r="5"/><circle cx="15.5" cy="10.5" r="6"/><path d="M3 21h18M9 17v4M15 16.5V21"/></svg></span><span class="season-tag">Passar nu</span><h3>Buskar &amp; prydnadsträd</h3><p>Formklippning och gallring så att buskarna håller formen och mår bra.</p></article>
+<article class="card service" data-te-service="rabatt"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21v-8M12 13c-3 0-4.5-2-4.5-4.5C10 8.5 12 10 12 13zm0 0c3 0 4.5-2 4.5-4.5C14 8.5 12 10 12 13z"/><circle cx="12" cy="5" r="2"/><path d="M4 21h16"/></svg></span><span class="season-tag">Passar nu</span><h3>Rabatter &amp; ogräs</h3><p>Rensning för hand, luckrad jord och snygga kanter mot gräsmattan.</p></article>
+<article class="card service" data-te-service="lov"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19C5 10 10 4 20 4c0 10-6 15-15 15z"/><path d="M5 19L14 10"/></svg></span><span class="season-tag">Passar nu</span><h3>Löv &amp; höststädning</h3><p>Krattning av gräsmattor, gångar och rabatter. Vi tar med oss löven.</p></article>
+<article class="card service" data-te-service="trad"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 21v-7M12 14l-4-3M12 16l4-3"/><path d="M12 3a6 6 0 0 1 6 6c0 3-2.5 5-6 5s-6-2-6-5a6 6 0 0 1 6-6z"/><path d="M5 21h14"/></svg></span><span class="season-tag">Passar nu</span><h3>Fruktträdsbeskärning</h3><p>Beskärning vid rätt tid ger friskare träd och mer frukt.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="hack" class="section">
+  <div class="container split">
+    <div class="photo split-media"><img src="../assets/img/hackklippning.jpg" alt="Häckklippning" loading="lazy" width="1200" height="1600"></div>
+    <div>
+      <span class="eyebrow">Häckklippning</span>
+      <h2>Behöver du hjälp med att klippa häcken?</h2>
+      <p class="muted">Vi utför alla typer av häckarbeten med fokus på resultat. Det ska vara enkelt att få en snygg häck!</p>
+      <ul class="hedge-list">
+<li class="hedge-point"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></span><div><h3>Perfekta tiden att klippa</h3><p>Många häckar mår bra av att klippas under växtsäsongen när de har satt ny tillväxt. En klippning under sommaren hjälper häcken att behålla sin form och förhindrar att den blir för bred eller för hög.</p></div></li>
+<li class="hedge-point"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 19C5 10 10 4 20 4c0 10-6 15-15 15z"/><path d="M5 19L14 10"/></svg></span><div><h3>För en välmående häck</h3><p>Regelbunden klippning stimulerar häcken att förgrena sig, vilket ger en tätare tillväxt. En tät häck ger bättre insynsskydd, står emot vind bättre och får ett jämnare utseende.</p></div></li>
+<li class="hedge-point"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg></span><div><h3>Snyggast i området</h3><p>En finklippt häck bidrar mycket till helhetsintrycket. Den ramar in tomten, skapar insynsskydd och ger ett prydligt intryck på hela fastigheten. Och du får den snyggaste häcken i området!</p></div></li>
+      </ul>
+      <a class="btn btn-primary" href="#pris">Räkna på din häck</a>
+    </div>
+  </div>
+</section>
+
+<section id="pris" class="section section-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Prisräknare</span>
+      <h2>Räkna ut ditt pris</h2>
+      <p>Välj vad du vill ha hjälp med – häck, gräsmatta, buskar eller något annat – och fyll i ungefärliga mått. RUT-avdraget räknas automatiskt. Skicka sedan uppskattningen till oss med ett klick.</p>
+    </div>
+    <div data-te-calculator></div>
+  </div>
+</section>
+
+<section id="om" class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Om oss</span><h2>Kvalitativ trädgårdsskötsel för alla</h2><p>Trädgårdseliten JS AB drivs av oss, David och Lukas. Vi erbjuder kvalitativ trädgårdsskötsel till privatpersoner och företag. Med fokus på kvalitet, kunskap och långsiktiga relationer skapar vi välskötta utemiljöer och trädgårdar efter kundens behov och önskemål.</p></div>
+    <div class="grid grid-3 about-row">
+      <article class="person">
+  <div class="photo"><img src="../assets/img/david.jpg" alt="David Stevenson" loading="lazy" width="1067" height="1600"></div>
+  <div class="person-body"><h3>David Stevenson</h3><p>Delägare</p><a class="btn btn-outline btn-sm" href="tel:+46732634118"><svg viewBox="0 0 24 24" aria-hidden="true" class="i"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> 073-263 41 18</a></div>
+</article>
+<article class="person">
+  <div class="photo"><img src="../assets/img/lukas.jpg" alt="Lukas Jonsgården" loading="lazy" width="1067" height="1600"></div>
+  <div class="person-body"><h3>Lukas Jonsgården</h3><p>Delägare</p><a class="btn btn-outline btn-sm" href="tel:+46702992160"><svg viewBox="0 0 24 24" aria-hidden="true" class="i"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg> 070-299 21 60</a></div>
+</article>
+      <article class="card quote">
+        <p>”Vi har sett att det finns ett stort behov av finskötselföretag på marknaden. Större delen av våra konkurrenter fokuserar på snabb tillväxt snarare än kvalitet och långsiktiga relationer. Vår affärsidé bygger därför på att erbjuda kvalitativ finskötsel av trädgårdar och utemiljöer – och att sätta relationer i fokus.”</p>
+        <span>— David &amp; Lukas</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="section cta-section">
+  <div class="container contact">
+    <div>
+      <span class="eyebrow">Kontakt</span>
+      <h2>Kontakta oss idag!</h2>
+      <p>Kostnadsfri offert. Ring, mejla eller skriv här.</p>
+      <ul class="contact-list">
+  <li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small>David Stevenson</small><a href="tel:+46732634118">073-263 41 18</a></div></li>
+  <li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><small>Lukas Jonsgården</small><a href="tel:+46702992160">070-299 21 60</a></div></li>
+  <li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="3"/><path d="M3 7l9 6 9-6"/></svg></span><div><small>Mejl</small><a href="mailto:Tradgardseliten@outlook.com">Tradgardseliten@outlook.com</a></div></li>
+</ul>
+    </div>
+    <div class="card"><form class="form" data-te-contact>
+  <div class="form-row">
+    <label>Namn<input name="namn" required autocomplete="name" placeholder="Förnamn Efternamn"></label>
+    <label>Telefon<input name="telefon" type="tel" autocomplete="tel" placeholder="07X-XXX XX XX"></label>
+  </div>
+  <div class="form-row">
+    <label>E-post<input name="epost" type="email" autocomplete="email" placeholder="namn@exempel.se"></label>
+    <label>Adress eller ort<input name="adress" autocomplete="street-address" placeholder="Gatuadress, ort"></label>
+  </div>
+  <label>Vad vill du ha hjälp med?<textarea name="meddelande" rows="6" data-te-message placeholder="Beskriv jobbet – eller använd prisräknaren så fylls det i automatiskt."></textarea></label>
+  <button class="btn btn-primary" type="submit">Skicka förfrågan <svg viewBox="0 0 24 24" aria-hidden="true" class="i"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  <p class="form-status" data-te-status hidden></p>
+</form></div>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <div class="container footer-inner">
+    <img src="../assets/img/logo.png" alt="Trädgårdseliten JS" width="425" height="77" loading="lazy">
+    <span>Trädgårdseliten JS AB · Org.nr 559573-8534 · <a href="mailto:Tradgardseliten@outlook.com">Tradgardseliten@outlook.com</a></span>
+    <div class="socials"><a href="https://www.instagram.com/tradgardseliten/" aria-label="Instagram" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.9 7.9c-.1-1.6-.4-3-1.6-4.2S17.7 2.2 16.1 2.1C14.4 2 9.6 2 7.9 2.1 6.3 2.2 4.9 2.5 3.7 3.7S2.2 6.3 2.1 7.9C2 9.6 2 14.4 2.1 16.1c.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.7.1 6.5.1 8.2 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.7.1-6.5 0-8.2zM19.8 18c-.3.9-1 1.5-1.8 1.8-1.3.5-4.3.4-5.7.4s-4.4.1-5.7-.4c-.9-.3-1.5-1-1.8-1.8-.5-1.3-.4-4.3-.4-5.7s-.1-4.4.4-5.7c.3-.9 1-1.5 1.8-1.8 1.3-.5 4.3-.4 5.7-.4s4.4-.1 5.7.4c.9.3 1.5 1 1.8 1.8.5 1.3.4 4.3.4 5.7s.1 4.4-.4 5.7z"/></svg></a><a href="https://www.facebook.com/p/Tr%C3%A4dg%C3%A5rdseliten-JS-61576988999724/" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 24 24"><path d="M14 8.5V6.6c0-.9.6-1.1 1-1.1h2.6V1.6L14 1.6c-4 0-4.9 3-4.9 4.9v2H6.8v4h2.3V22h4.9v-9.5h3.3l.4-4H14z"/></svg></a><a href="https://www.tiktok.com/@tradgardseliten" aria-label="Tiktok" rel="noopener"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.4v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.2a6.3 6.3 0 1 0 5.4 6.2V8.6a8 8 0 0 0 4.7 1.5V6.7a4.7 4.7 0 0 1-4.7-4.7z"/></svg></a></div>
+  </div>
+</footer>
+</body>
+</html>
