@@ -10,15 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared/base.css">
 <style>
-  body { background: var(--surface); }
-  header { padding: 64px 0 40px; text-align: center; }
+  body { background: var(--bg-2); }
+  header.container { padding-top: 72px; padding-bottom: 48px; text-align: center; }
   header img { height: 40px; width: auto; margin: 0 auto 28px; }
   header p { color: var(--muted); max-width: 560px; margin: 12px auto 0; }
   .list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px; padding-bottom: 80px; }
-  .opt { display: block; text-decoration: none; background: #fff; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); transition: transform .2s, box-shadow .2s; }
-  .opt:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
-  .swatch { height: 150px; display: flex; align-items: flex-end; gap: 8px; padding: 20px; }
-  .swatch i { width: 34px; height: 34px; border-radius: 50%; border: 2px solid rgba(255,255,255,.8); box-shadow: 0 2px 6px rgba(0,0,0,.15); }
+  .opt { display: block; text-decoration: none; background: #fff; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); transition: transform .2s, box-shadow .2s; }
+  .opt:hover { transform: translateY(-3px); box-shadow: 0 12px 30px -14px rgba(0,0,0,.3); }
+  .swatch { height: 180px; }
   .opt div { padding: 20px 22px 24px; }
   .opt h2 { font-size: 20px; margin-bottom: 6px; }
   .opt p { color: var(--muted); margin: 0; font-size: 14px; }
@@ -29,14 +28,14 @@
 <header class="container">
   <img src="assets/img/logo.png" alt="Trädgårdseliten JS" width="425" height="77">
   <h1 style="font-size:clamp(30px,4vw,44px)">Fem designförslag</h1>
-  <p>Samma innehåll, bilder och prisräknare – fem olika uttryck. Alla med Poppins, rundade knappar och en ren, jämn layout.</p>
+  <p>Samma innehåll, foton och prisräknare i alla fem. Skillnaden är heroföto, rubrik, färger och ordningen på sektionerna.</p>
 </header>
 <main class="container list">
-  <a class="opt" href="forslag-1/"><div class="swatch" style="background:#f3f6f0"><i style="background:#1f4d2b"></i><i style="background:#cddc39"></i><i style="background:#fff"></i></div><div><h2>1. Klassisk</h2><p>Vit och skogsgrön. Text och bild sida vid sida, tydlig och trygg.</p><span>Öppna förslag →</span></div></a>
-  <a class="opt" href="forslag-2/"><div class="swatch" style="background:url(assets/img/akgrasklippare.jpg) center 60%/cover"><i style="background:#2d5a35"></i><i style="background:#cddc39"></i></div><div><h2>2. Fullbild</h2><p>Stor bild överst med kort som lägger sig över. Mest känsla.</p><span>Öppna förslag →</span></div></a>
-  <a class="opt" href="forslag-3/"><div class="swatch" style="background:#111511"><i style="background:#1c231d"></i><i style="background:#cddc39"></i><i style="background:#f2f4ef"></i></div><div><h2>3. Mörk</h2><p>Mörkt tema med limegrönt från loggan. Modernt och premium.</p><span>Öppna förslag →</span></div></a>
-  <a class="opt" href="forslag-4/"><div class="swatch" style="background:#f8f5ef"><i style="background:#5f6818"></i><i style="background:#dfe887"></i><i style="background:#efeadf"></i></div><div><h2>4. Mjuk</h2><p>Varm beige och olivgrön, bildmosaik överst. Lugnt och naturligt.</p><span>Öppna förslag →</span></div></a>
-  <a class="opt" href="forslag-5/"><div class="swatch" style="background:#cddc39"><i style="background:#130a0a"></i><i style="background:#fff"></i></div><div><h2>5. Lime</h2><p>Varumärkets limegröna som huvudfärg med svarta knappar. Mest sticker ut.</p><span>Öppna förslag →</span></div></a>
+  <a class="opt" href="forslag-1/"><div class="swatch" style="background:url(assets/img/hackklippning.jpg) center 60%/cover"></div><div><h2>1. Häcken</h2><p>Lukas med häcksaxen över hela heron. Vitt och skogsgrönt, limegrön knapp.</p><span>Öppna förslag →</span></div></a>
+  <a class="opt" href="forslag-2/"><div class="swatch" style="background:url(assets/img/akgrasklippare.jpg) center 60%/cover"></div><div><h2>2. Gräset</h2><p>Åkgräsklipparen i heron och prisräknaren direkt efter. Mörk olivgrön.</p><span>Öppna förslag →</span></div></a>
+  <a class="opt" href="forslag-3/"><div class="swatch" style="background:url(assets/img/grasmatta.jpg) center 70%/cover"></div><div><h2>3. Ränderna</h2><p>Den randiga gräsmattan, texten högst upp. Varm off-white och sandfärg.</p><span>Öppna förslag →</span></div></a>
+  <a class="opt" href="forslag-4/"><div class="swatch" style="background:url(assets/img/teamet.jpg) center 62%/cover"></div><div><h2>4. Teamet</h2><p>David och Lukas vid bilen och släpet. Mörkt tema med limegrönt.</p><span>Öppna förslag →</span></div></a>
+  <a class="opt" href="forslag-5/"><div class="swatch" style="background:url(assets/img/vattning.jpg) center 45%/cover"></div><div><h2>5. Vattning</h2><p>Två delägare i jobbet. Svart och limegrönt, kontaktdelen i lime.</p><span>Öppna förslag →</span></div></a>
 </main>
 </body>
 </html>

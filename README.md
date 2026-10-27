@@ -4,13 +4,21 @@ Statisk sajt i ren HTML/CSS/JS – inget byggsteg. Öppna `index.html` för att 
 
 | Förslag | Stil |
 |---|---|
-| `forslag-1/` | Klassisk – vit och skogsgrön |
-| `forslag-2/` | Fullbild – stor bild överst |
-| `forslag-3/` | Mörk – mörkt tema med limegrönt |
-| `forslag-4/` | Mjuk – beige och olivgrönt, bildmosaik |
-| `forslag-5/` | Lime – varumärkets limegröna som huvudfärg |
+| `forslag-1/` | Häcken – häckklippningsfotot i heron, vitt och skogsgrönt |
+| `forslag-2/` | Gräset – åkgräsklipparen i heron, prisräknaren direkt efter |
+| `forslag-3/` | Ränderna – randiga gräsmattan, varm off-white |
+| `forslag-4/` | Teamet – David och Lukas vid bilen, mörkt tema |
+| `forslag-5/` | Vattning – svart och limegrönt |
 
-Alla förslag använder Poppins, rundade knappar och samma innehåll, bilder och texter från nuvarande sajt.
+Alla förslag använder Poppins, rundade knappar och deras egna foton och texter från nuvarande sajt.
+
+## Designregler (mot "AI-slop")
+
+- Riktigt foto över hela heron, vänsterställd text, en huvudknapp och telefonnumret som textlänk.
+- Inga ikonkort i rader, inga etiketter ovanför rubriker, inga piller, statusprickar, glow eller gradienter.
+- Tjänster som en lista med linjer i stället för kort. Varierade kolumnbredder (7/5, 5/7, 6/5).
+- Pill-formade knappar, små radier på bilder och fält.
+- Konkret text: riktiga namn, telefonnummer och tjänster – inga påhittade siffror.
 
 ## Smarta funktioner (i `shared/te.js`)
 
