@@ -9,6 +9,11 @@ Statisk sajt (HTML/CSS/JS, inget byggsteg). Öppna `index.html`.
 
 Hero (video) → Om oss (cream, stor bild) → Tjänster (sand, kort) → Projekt (mörkgrön mosaik) → Process (bild med tidslinje) → Möt teamet (cream, personkort) → Omdömen (mörk, citat) → Vanliga frågor (sand, dragspel) → Kontakt (formulär + karta) → Sidfot.
 
+## Uppgifter från webben (hitta.se, allabolag.se, okt 2026)
+
+Bekräftat: Bönabo 190, 449 70 Nödinge · org.nr 559550-2351 · momsreg. SE559550235101 · F-skatt: ja · VD Ann Linéa Hellberg · registrerat 2025-10-20 · 0 anställda.
+Hittades inte någonstans: telefonnummer, e-post, webbplats, Instagram eller andra sociala medier, omdömen, övriga medarbetare.
+
 ## Innan lansering
 
 - **Platshållare att byta:** telefonnummer `+46 XX XXX XX XX` / `tel:+46XXXXXXXXX` (navbar, mobilmeny, team, FAQ, kontakt, sidfot), Instagram-länken `https://www.instagram.com/` (navbar, mobilmeny, kontakt, sidfot), teamets namn, roller, foton och e-post (`namn@spirera.se`), samt omdömena i hakparenteser.
