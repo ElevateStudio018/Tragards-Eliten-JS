@@ -16,7 +16,7 @@ Hittades inte någonstans: telefonnummer, e-post, webbplats, Instagram eller and
 
 ## Innan lansering
 
-- **Platshållare att byta:** telefonnummer `+46 XX XXX XX XX` / `tel:+46XXXXXXXXX` (navbar, mobilmeny, team, FAQ, kontakt, sidfot), Instagram-länken `https://www.instagram.com/` (navbar, mobilmeny, kontakt, sidfot), teamets namn, roller, foton och e-post (`namn@spirera.se`), samt omdömena i hakparenteser.
+- **Påhittat (byt innan lansering):** e-postadresserna (`info@`, `annlinea@`, `johan@`, `sara@spirera.se`), Instagram `@spirera.ab`, teammedlemmarna Johan Ekström och Sara Lindqvist samt alla tre omdömena. Telefon +46 70 518 10 94 är riktigt.
 - **Projekt:** bilderna är representativa Pexels-foton och beskrivningarna exempel på uppdragstyper. Byt mot Spireras egna projekt när de finns.
 
 - **E-post:** formuläret öppnar ett ifyllt mejl till `info@spirera.se` (`data-mailto` i `index.html`). Byt till rätt adress. Lägg gärna till telefonnummer i kontaktdelen och i heron.
