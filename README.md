@@ -1,4 +1,4 @@
-# Trädgårdseliten JS – ny hemsida (5 designförslag)
+# Trädgårdseliten JS – ny hemsida (6 designförslag)
 
 Statisk sajt i ren HTML/CSS/JS – inget byggsteg. Öppna `index.html` för att välja mellan förslagen.
 
@@ -9,6 +9,7 @@ Statisk sajt i ren HTML/CSS/JS – inget byggsteg. Öppna `index.html` för att 
 | `forslag-3/` | Ränderna – randiga gräsmattan, varm off-white |
 | `forslag-4/` | Teamet – David och Lukas vid bilen, mörkt tema |
 | `forslag-5/` | Vattning – svart och limegrönt |
+| `forslag-6/` | Svart – helsvart tema, limegrönt bara på huvudknapparna |
 
 Alla förslag använder Poppins, rundade knappar och deras egna foton och texter från nuvarande sajt.
 

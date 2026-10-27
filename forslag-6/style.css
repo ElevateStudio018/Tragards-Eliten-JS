@@ -1,0 +1,33 @@
+/* Förslag 6 – Svart. Helsvart med vit text, limegrönt bara på huvudknapparna. */
+:root {
+  --bg: #000000;
+  --bg-2: #0e0e0e;
+  --text: #f4f4f1;
+  --muted: #a2a29d;
+  --line: #262626;
+  --primary: #f4f4f1;
+  --primary-hover: #ffffff;
+  --on-primary: #000000;
+  --accent: #cddc39;
+  --on-accent: #000000;
+  --hero-scrim: linear-gradient(90deg, rgba(0, 0, 0, .78) 0%, rgba(0, 0, 0, .4) 55%, rgba(0, 0, 0, .1) 100%);
+}
+.services { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.svc-list { border-top-color: var(--text); }
+.svc-now, .tec-svc-badge { color: var(--accent); }
+.feature .btn-primary { background: var(--accent); color: var(--on-accent); }
+.feature .btn-primary:hover { background: color-mix(in srgb, var(--accent) 85%, #fff); }
+.tec-input { color: var(--text); }
+.tec-services { border-top-color: var(--text); }
+.tec-summary { background: #141414; color: var(--text); box-shadow: inset 0 0 0 1px var(--line); }
+.tec-sum-head, .tec-line { border-color: var(--line); }
+.tec-svc[data-on="true"] .tec-svc-check, .tec-check input:checked + .tec-check-box { background: var(--accent); }
+.tec-svc[data-on="true"] .tec-svc-check::after, .tec-check input:checked + .tec-check-box::after { border-color: #000; }
+.tec-range { accent-color: var(--accent); }
+.tec-mode-opt input:checked + span { background: var(--text); color: #000; }
+.contact { background: var(--bg-2); color: var(--text); border-top: 1px solid var(--line); }
+.contact-lines div { border-color: var(--line); }
+.contact .btn-primary { background: var(--accent); color: var(--on-accent); }
+.form input, .form textarea { background: #000; color: var(--text); border-color: var(--line); }
+.form input:focus, .form textarea:focus { border-color: var(--accent); }
+.footer h3 { color: var(--text); }

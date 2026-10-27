@@ -5,7 +5,7 @@
 (function () {
   if (/[?&]ren\b/.test(location.search)) return;
   var current = (location.pathname.match(/forslag-(\d)/) || [])[1];
-  var names = ['Klassisk', 'Fullbild', 'Mörk', 'Mjuk', 'Lime'];
+  var names = ['Häcken', 'Gräset', 'Ränderna', 'Teamet', 'Vattning', 'Svart'];
   var bar = document.createElement('nav');
   bar.setAttribute('aria-label', 'Designförslag');
   bar.style.cssText = 'position:fixed;left:12px;bottom:12px;z-index:9999;display:flex;gap:2px;align-items:center;' +
