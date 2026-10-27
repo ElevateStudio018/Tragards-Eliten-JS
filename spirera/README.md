@@ -5,7 +5,14 @@ Statisk sajt (HTML/CSS/JS, inget byggsteg). Öppna `index.html`.
 - **Hero:** samma uppbyggnad som [spirera.framer.website](https://spirera.framer.website/) – grön pill-meny, video i fullskärm, Roboto Serif-rubrik som tonar in bokstav för bokstav, limegrön + glasknapp och glaskortet nere till höger. På mobil: vit meny med limegrön plusknapp och knappar i full bredd.
 - **Resten:** en blandning av våra sajter för Essens (varm off-white, lugna textspalter, kursiva nyckelord, numrerade steg, bildgrid med glasetiketter) och Ängö (tjänster med bild, etiketter med färgstreck, förskjuten bild med färgblock bakom, färgat CTA-band, mörk sidfot med org.nr).
 
+## Sektioner
+
+Hero (video) → Om oss (cream, stor bild) → Tjänster (sand, kort) → Projekt (mörkgrön mosaik) → Process (bild med tidslinje) → Möt teamet (cream, personkort) → Omdömen (mörk, citat) → Vanliga frågor (sand, dragspel) → Kontakt (formulär + karta) → Sidfot.
+
 ## Innan lansering
+
+- **Platshållare att byta:** telefonnummer `+46 XX XXX XX XX` / `tel:+46XXXXXXXXX` (navbar, mobilmeny, team, FAQ, kontakt, sidfot), Instagram-länken `https://www.instagram.com/` (navbar, mobilmeny, kontakt, sidfot), teamets namn, roller, foton och e-post (`namn@spirera.se`), samt omdömena i hakparenteser.
+- **Projekt:** bilderna är representativa Pexels-foton och beskrivningarna exempel på uppdragstyper. Byt mot Spireras egna projekt när de finns.
 
 - **E-post:** formuläret öppnar ett ifyllt mejl till `info@spirera.se` (`data-mailto` i `index.html`). Byt till rätt adress. Lägg gärna till telefonnummer i kontaktdelen och i heron.
 - **Bilder och video** är fria foton från [Pexels](https://www.pexels.com) (se tabellen nedan) – inget är kopierat från Framer-mallen. Byt gärna mot Spireras egna foton med samma filnamn i `img/`.
@@ -31,3 +38,6 @@ ffmpeg -i original.mp4 -an -c:v libx264 -preset slow -crf 25 -vf scale=960:-2 -p
 | `img/gang.webp` | [32416206](https://www.pexels.com/photo/32416206/) |
 | `img/innergard.webp` | [17037585](https://www.pexels.com/photo/17037585/) |
 | `img/tradack.webp` | [8180361](https://www.pexels.com/photo/8180361/) |
+| `img/om-oss.webp` | [33693087](https://www.pexels.com/photo/33693087/) |
+| `img/process.webp` | [7174111](https://www.pexels.com/photo/7174111/) |
+| `img/pergola.webp` | [8919730](https://www.pexels.com/photo/8919730/) |

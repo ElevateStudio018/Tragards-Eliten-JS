@@ -21,19 +21,30 @@
       <span>Spirera</span>
     </a>
     <nav class="nav-links" aria-label="Huvudmeny">
+      <a href="#om-oss"><span data-t="Om oss">Om oss</span></a>
       <a href="#tjanster"><span data-t="Tjänster">Tjänster</span></a>
-      <a href="#arbetssatt"><span data-t="Arbetssätt">Arbetssätt</span></a>
-      <a href="#for-vem"><span data-t="För vem">För vem</span></a>
+      <a href="#projekt"><span data-t="Projekt">Projekt</span></a>
       <a href="#kontakt"><span data-t="Kontakt">Kontakt</span></a>
     </nav>
-    <a class="nav-cta" href="#kontakt">Boka ett första samtal</a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobilmeny" aria-label="Öppna meny"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+    <div class="nav-right">
+      <a class="nav-phone" href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+      <a class="nav-ig" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Spirera på Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a>
+      <a class="nav-cta" href="#kontakt">Boka ett första samtal</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobilmeny" aria-label="Öppna meny"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
+    </div>
   </div>
   <nav class="mobile-menu" id="mobilmeny" aria-label="Mobilmeny">
+    <a href="#om-oss">Om oss</a>
     <a href="#tjanster">Tjänster</a>
-    <a href="#arbetssatt">Arbetssätt</a>
-    <a href="#for-vem">För vem</a>
+    <a href="#projekt">Projekt</a>
+    <a href="#process">Process</a>
+    <a href="#team">Teamet</a>
+    <a href="#fragor">Vanliga frågor</a>
     <a href="#kontakt">Kontakt</a>
+    <div class="mm-row">
+      <a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg> Instagram</a>
+    </div>
     <a class="mm-cta" href="#kontakt">Boka ett första samtal</a>
   </nav>
 </header>
@@ -73,18 +84,27 @@
   </div>
 </section>
 
-<!-- INTRO -->
-<section class="intro">
-  <div class="wrap intro-grid">
-    <div>
-      <span class="eyebrow">Spirera</span>
-      <h2>Vi ritar det. <em>Bygger</em> det. Och ser till att det <em>växer</em>.</h2>
-    </div>
-    <div class="intro-text">
-      <p class="lead">En trädgård blir sällan bra av en ritning ensam, och inte heller av ett bygge som saknar plan. Hos oss hänger det ihop.</p>
-      <p>Spirera skapar hållbara och levande utemiljöer. Vi tar fram gestaltningen och ritningarna, bygger murar, altaner och planteringar – och sköter sedan om det som har anlagts, så att trädgården blir bättre för varje år i stället för tvärtom.</p>
-      <p>Vi utgår från Nödinge i Ale kommun och arbetar i hela Västra Götaland. Företaget leds av Ann Linéa Hellberg.</p>
-      <a class="link" href="#arbetssatt">Så arbetar vi <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+<!-- OM OSS -->
+<section id="om-oss" class="about">
+  <div class="about-grid">
+    <figure class="about-img">
+      <img src="img/om-oss.webp" alt="Stenmur med frodiga planteringar längs en gång" loading="lazy" width="1350" height="1800">
+    </figure>
+    <div class="about-text">
+      <span class="eyebrow">Om oss</span>
+      <h2>Ett ungt trädgårdsföretag med <em>rötterna</em> i Ale</h2>
+      <p class="lead">Spirera AB startade hösten 2025 i Nödinge. Idén är enkel: den som ritar en trädgård ska också förstå hur den byggs och hur den ska skötas om tio år.</p>
+      <p>Därför arbetar vi med hela kedjan – men lika gärna med en enskild del. Vi väljer växter som klarar västsvenskt klimat, material som åldras vackert och lösningar som inte kräver mer skötsel än ni orkar med.</p>
+      <dl class="about-facts">
+        <div><dt>Grundat</dt><dd>2025</dd></div>
+        <div><dt>Bas</dt><dd>Nödinge, Ale</dd></div>
+        <div><dt>VD</dt><dd>Ann Linéa Hellberg</dd></div>
+      </dl>
+      <ul class="about-who">
+        <li><b>Privat</b> Villatomter, radhus och fritidshus</li>
+        <li><b>BRF</b> Gårdar och gemensamma ytor</li>
+        <li><b>Företag</b> Entréer och fastighetsnära grönytor</li>
+      </ul>
     </div>
   </div>
 </section>
@@ -95,9 +115,9 @@
     <div class="sec-head">
       <div>
         <span class="eyebrow">Tjänster</span>
-        <h2>Fyra sätt att arbeta med<br>samma trädgård</h2>
+        <h2>Det här kan ni anlita oss för</h2>
       </div>
-      <a class="link" href="#kontakt">Berätta om din trädgård <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <p class="sec-note">Välj en tjänst eller kombinera flera – priset sätts per projekt efter platsbesöket.</p>
     </div>
 
     <div class="svc-grid">
@@ -141,65 +161,159 @@
   </div>
 </section>
 
-<!-- ARBETSSÄTT -->
-<section id="arbetssatt" class="process">
-  <div class="wrap process-grid">
-    <figure class="process-img">
-      <img src="img/plantering.webp" alt="Händer med handskar som planterar i jorden" loading="lazy" width="1067" height="1600">
-    </figure>
-    <div>
-      <span class="eyebrow">Arbetssätt</span>
-      <h2>Från första samtal till en trädgård som håller</h2>
-      <ol class="steps">
-        <li><span>01</span><div><h3>Samtal och platsbesök</h3><p>Vi går runt på plats och pratar om hur ytan används idag, vad som fungerar och vad ni saknar.</p></div></li>
-        <li><span>02</span><div><h3>Förslag och ritning</h3><p>Ni får ett gestaltningsförslag med material, växtval och en tydlig kostnadsbild. Vid behov tar vi fram bygglovshandlingar.</p></div></li>
-        <li><span>03</span><div><h3>Bygg och anläggning</h3><p>Vi bygger det vi har ritat – snickeri, sten och plantering – och håller er uppdaterade under arbetet.</p></div></li>
-        <li><span>04</span><div><h3>Skötsel efteråt</h3><p>En ny trädgård behöver omsorg de första åren. Vi kan ta över skötseln så att den växer in som det var tänkt.</p></div></li>
-      </ol>
-    </div>
-  </div>
-</section>
-
-<!-- FÖR VEM -->
-<section id="for-vem" class="audience">
+<!-- PROJEKT -->
+<section id="projekt" class="projects">
   <div class="wrap">
-    <span class="eyebrow">För vem</span>
-    <h2 class="aud-title">Samma omsorg, oavsett om det är en villatomt eller en innergård</h2>
-    <div class="aud-cols">
+    <div class="proj-head">
       <div>
-        <h3>Privat</h3>
-        <p>Ny trädgård, en altan som ska byggas om eller en tomt som behöver en plan. Vi hjälper er hela vägen eller med en del av den.</p>
+        <span class="eyebrow">Projekt</span>
+        <h2>Utemiljöer i olika skala</h2>
       </div>
-      <div>
-        <h3>BRF</h3>
-        <p>Gårdar och gemensamma ytor som ska fungera för många. Gestaltning, upprustning och skötsel som styrelsen kan planera och budgetera för.</p>
-      </div>
-      <div>
-        <h3>Företag</h3>
-        <p>Entréer, innergårdar och grönytor kring fastigheten. Projektering, projektledning och löpande underhåll.</p>
-      </div>
+      <p>Ett urval typer av uppdrag vi tar oss an – från en enskild mur till en hel bostadsgård.</p>
+    </div>
+    <div class="proj-grid">
+      <article class="proj p1">
+        <figure><img src="img/natursten.webp" alt="Terrasserad mur i sten med planteringar" loading="lazy" width="1600" height="1071"></figure>
+        <div class="proj-meta"><span>Privat · Anläggning</span><h3>Terrasserad stenmur</h3><p>En brant slänt blev tre odlingsbara terrasser med murar i natursten och perenner som tål torka.</p></div>
+      </article>
+      <article class="proj p2">
+        <figure><img src="img/pergola.webp" alt="Vit pergola och staket i en grön trädgård" loading="lazy" width="1200" height="1800"></figure>
+        <div class="proj-meta"><span>Privat · Bygg</span><h3>Pergola och staket</h3><p>Snickeri i trä som ramar in uteplatsen och ger klätterväxter något att växa på.</p></div>
+      </article>
+      <article class="proj p3">
+        <figure><img src="img/innergard.webp" alt="Planterad gård framför ett flerbostadshus" loading="lazy" width="1067" height="1600"></figure>
+        <div class="proj-meta"><span>BRF · Design &amp; skötsel</span><h3>Bostadsgård</h3><p>Upphöjda planteringsbäddar, sittplatser och ett skötselupplägg som styrelsen kan budgetera för.</p></div>
+      </article>
+      <article class="proj p4">
+        <figure><img src="img/gang.webp" alt="Grusgång mellan häckar" loading="lazy" width="1067" height="1600"></figure>
+        <div class="proj-meta"><span>Företag · Anläggning</span><h3>Grusgång genom häckar</h3><p>Ett genare stråk mellan parkering och entré, kantat av häck som skyddar mot vind.</p></div>
+      </article>
+      <article class="proj p5">
+        <figure><img src="img/tradack.webp" alt="Trädäck med stolar och bord bland träden" loading="lazy" width="1600" height="1076"></figure>
+        <div class="proj-meta"><span>Privat · Design &amp; bygg</span><h3>Trädäck i skogstomt</h3><p>Ett däck byggt runt befintliga tallar, så att träden fick stå kvar.</p></div>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- BILDER -->
-<section class="gallery" aria-label="Exempel på utemiljöer">
-  <div class="wrap gal-grid">
-    <figure class="g1"><img src="img/natursten.webp" alt="Terrasserad mur i sten med planteringar" loading="lazy" width="1600" height="1071"><figcaption>Murar och natursten</figcaption></figure>
-    <figure class="g2"><img src="img/gang.webp" alt="Grusgång mellan häckar" loading="lazy" width="1067" height="1600"><figcaption>Gångar och häckar</figcaption></figure>
-    <figure class="g3"><img src="img/innergard.webp" alt="Planterad gård framför ett flerbostadshus" loading="lazy" width="1067" height="1600"><figcaption>Gårdar för BRF</figcaption></figure>
-    <figure class="g4"><img src="img/tradack.webp" alt="Trädäck med stolar och bord bland träden" loading="lazy" width="1600" height="1076"><figcaption>Trädäck och altaner</figcaption></figure>
+<!-- PROCESS -->
+<section id="process" class="process">
+  <img class="process-bg" src="img/process.webp" alt="" loading="lazy" width="1800" height="1202" aria-hidden="true">
+  <div class="process-shade" aria-hidden="true"></div>
+  <div class="wrap process-in">
+    <div class="process-head">
+      <span class="eyebrow">Process</span>
+      <h2>Från första kontakt till färdig trädgård</h2>
+    </div>
+    <ol class="timeline">
+      <li><span class="tl-no">1</span><h3>Första kontakt</h3><p>Ni hör av er via formuläret eller telefon. Vi ställer några frågor och bokar ett besök.</p></li>
+      <li><span class="tl-no">2</span><h3>Platsbesök</h3><p>Vi mäter, fotograferar och tittar på jord, ljus, lutning och hur ytan används idag.</p></li>
+      <li><span class="tl-no">3</span><h3>Förslag &amp; offert</h3><p>Ni får ritning, material- och växtförslag samt ett fast pris eller en tydlig budget.</p></li>
+      <li><span class="tl-no">4</span><h3>Utförande</h3><p>Vi bygger och planterar enligt plan och stämmer av vid varje större moment.</p></li>
+      <li><span class="tl-no">5</span><h3>Överlämning</h3><p>Vi går igenom resultatet tillsammans och ger skötselråd – eller tar över skötseln.</p></li>
+    </ol>
   </div>
 </section>
 
-<!-- CTA -->
-<section class="cta-band">
-  <div class="wrap cta-in">
-    <div>
-      <h2>Har ni en utemiljö som behöver en plan?</h2>
-      <p>Berätta kort vad ni har och vad ni vill – så hör vi av oss och bokar ett första samtal.</p>
+<!-- TEAM -->
+<section id="team" class="team">
+  <div class="wrap">
+    <div class="team-head">
+      <span class="eyebrow">Möt teamet</span>
+      <h2>Människorna ni träffar</h2>
     </div>
-    <a class="btn btn-dark" href="#kontakt">Kontakta oss <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    <!-- Byt platshållarna mot riktiga namn, foton, nummer och e-post -->
+    <div class="team-grid">
+      <article class="person">
+        <div class="person-img" data-initials="AH"><!-- <img src="img/team-ann.webp" alt="Ann Linéa Hellberg"> --></div>
+        <div class="person-body">
+          <h3>Ann Linéa Hellberg</h3>
+          <span class="role">VD &amp; trädgårdsdesign</span>
+          <a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+          <a href="mailto:namn@spirera.se">namn@spirera.se</a>
+        </div>
+      </article>
+      <article class="person">
+        <div class="person-img" data-initials="NN"></div>
+        <div class="person-body">
+          <h3>Förnamn Efternamn</h3>
+          <span class="role">Projektledare anläggning</span>
+          <a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+          <a href="mailto:namn@spirera.se">namn@spirera.se</a>
+        </div>
+      </article>
+      <article class="person">
+        <div class="person-img" data-initials="NN"></div>
+        <div class="person-body">
+          <h3>Förnamn Efternamn</h3>
+          <span class="role">Trädgårdsskötsel</span>
+          <a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+          <a href="mailto:namn@spirera.se">namn@spirera.se</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RECENSIONER -->
+<section id="omdomen" class="reviews">
+  <div class="wrap reviews-in">
+    <div class="reviews-head">
+      <span class="eyebrow">Omdömen</span>
+      <h2>Vad kunderna säger</h2>
+      <p>Platshållare – ersätt med riktiga omdömen från Spireras kunder.</p>
+    </div>
+    <div class="quotes">
+      <figure class="quote quote-big">
+        <blockquote>”[Kundens omdöme här – gärna två, tre meningar om vad som gjordes och hur det blev.]”</blockquote>
+        <figcaption><b>[Namn]</b> · [Ort] · Privat</figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>”[Kort omdöme från en bostadsrättsförening.]”</blockquote>
+        <figcaption><b>[Namn]</b> · BRF [Namn]</figcaption>
+      </figure>
+      <figure class="quote">
+        <blockquote>”[Kort omdöme från ett företag.]”</blockquote>
+        <figcaption><b>[Namn]</b> · [Företag]</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="fragor" class="faq">
+  <div class="wrap faq-grid">
+    <div class="faq-head">
+      <span class="eyebrow">Vanliga frågor</span>
+      <h2>Bra att veta innan ni hör av er</h2>
+      <p>Hittar ni inte svaret? Ring +46 XX XXX XX XX eller skriv i formuläret nedan.</p>
+    </div>
+    <div class="faq-list">
+      <details open>
+        <summary>Vilka områden arbetar ni i?</summary>
+        <p>Vi utgår från Nödinge och tar uppdrag i hela Västra Götaland – oftast i Ale, Kungälv, Lerum, Alingsås, Trollhättan och Göteborg.</p>
+      </details>
+      <details>
+        <summary>Kan vi anlita er bara för en ritning?</summary>
+        <p>Ja. Många vill ha en genomtänkt plan och anlägga själva eller i etapper. Ritningen tas fram så att den går att bygga efter oavsett vem som utför arbetet.</p>
+      </details>
+      <details>
+        <summary>Hjälper ni till med bygglov?</summary>
+        <p>Ja. Vi tar fram de ritningar och handlingar som kommunen kräver, till exempel för murar, plank eller altaner som behöver bygglov eller anmälan.</p>
+      </details>
+      <details>
+        <summary>Hur sätts priset?</summary>
+        <p>Efter platsbesöket får ni en offert. Mindre jobb prissätts oftast med fast pris, större projekt med en budget som följs upp under arbetet.</p>
+      </details>
+      <details>
+        <summary>Kan ni sköta trädgården efter att den är anlagd?</summary>
+        <p>Ja, med ett skötselavtal som anpassas efter säsong och behov – eller med enstaka insatser när ni behöver dem.</p>
+      </details>
+      <details>
+        <summary>Tar ni uppdrag från bostadsrättsföreningar och företag?</summary>
+        <p>Ja. Vi kan ta fram förslag som styrelsen kan fatta beslut om, projektleda upprustningen och sköta ytorna efteråt.</p>
+      </details>
+    </div>
   </div>
 </section>
 
@@ -209,12 +323,17 @@
     <div>
       <span class="eyebrow">Kontakt</span>
       <h2>Börja med ett samtal</h2>
-      <p class="lead">Skriv några rader om platsen och vad ni funderar på.</p>
+      <p class="lead">Skriv några rader om platsen och vad ni funderar på, så hör vi av oss och bokar ett platsbesök.</p>
       <dl class="facts">
+        <div><dt>Telefon</dt><dd><a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a></dd></div>
+        <div><dt>E-post</dt><dd><a href="mailto:info@spirera.se">info@spirera.se</a></dd></div>
         <div><dt>Adress</dt><dd>Bönabo 190<br>449 70 Nödinge</dd></div>
-        <div><dt>Område</dt><dd>Ale kommun och Västra Götaland</dd></div>
-        <div><dt>Kontaktperson</dt><dd>Ann Linéa Hellberg, VD</dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/" target="_blank" rel="noopener">Följ oss på Instagram</a></dd></div>
       </dl>
+      <div class="map">
+        <iframe title="Karta över Nödinge, Ale kommun" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=11.98%2C57.86%2C12.14%2C57.93&amp;layer=mapnik&amp;marker=57.8949%2C12.0646"></iframe>
+        <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=B%C3%B6nabo+190%2C+449+70+N%C3%B6dinge" target="_blank" rel="noopener">Öppna i Google Maps <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
     </div>
     <form class="form" data-mailto="info@spirera.se">
       <div class="seg" role="radiogroup" aria-label="Jag är">
@@ -250,7 +369,7 @@
         <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 29V15"/><path d="M16 17c0-6 -4.5-10-11-10 0 6.5 4.5 10 11 10Z"/><path d="M16 14c0-5.5 4-9.5 10.5-9.5 0 6-4 9.5-10.5 9.5Z"/></svg>
         <span>Spirera</span>
       </a>
-      <p>Hållbara och levande utemiljöer för privatpersoner, BRF och företag i Västra Götaland.</p>
+      <p>Trädgårdsdesign, bygg &amp; anläggning, skötsel och rådgivning.</p>
       <ul class="chips"><li>Org.nr 559550-2351</li><li>Ale kommun</li></ul>
     </div>
     <div>
@@ -261,19 +380,24 @@
       <a href="#tjanster">Rådgivning</a>
     </div>
     <div>
-      <h4>Spirera AB</h4>
-      <p>Bönabo 190<br>449 70 Nödinge<br>Ale kommun</p>
+      <h4>Kontakt</h4>
+      <p>Bönabo 190<br>449 70 Nödinge</p>
+      <a href="tel:+46XXXXXXXXX">+46 XX XXX XX XX</a>
+      <a href="mailto:info@spirera.se">info@spirera.se</a>
+      <a class="foot-ig" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg> Instagram</a>
     </div>
     <div>
       <h4>Sidan</h4>
-      <a href="#arbetssatt">Arbetssätt</a>
-      <a href="#for-vem">För vem</a>
-      <a href="#kontakt">Kontakt</a>
+      <a href="#om-oss">Om oss</a>
+      <a href="#projekt">Projekt</a>
+      <a href="#process">Process</a>
+      <a href="#team">Teamet</a>
+      <a href="#fragor">Vanliga frågor</a>
     </div>
   </div>
   <div class="wrap foot-bottom">
     <span>© <span data-year>2026</span> Spirera AB</span>
-    <a href="#top">Till toppen ↑</a>
+    <span class="fb-right"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".6" fill="currentColor"/></svg></a><a href="#top">Till toppen ↑</a></span>
   </div>
 </footer>
 </body>

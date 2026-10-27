@@ -39,7 +39,7 @@
   window.addEventListener('scroll', onScroll, { passive: true });
 
   // Sektioner glider in
-  const targets = document.querySelectorAll('.intro-grid > *, .sec-head, .svc, .process-img, .steps li, .aud-title, .aud-cols > div, .gal-grid figure, .contact-grid > *');
+  const targets = document.querySelectorAll('.about-text, .sec-head, .svc, .proj-head, .proj, .process-head, .timeline li, .team-head, .person, .reviews-head, .quote, .faq-head, .faq-list, .contact-grid > *');
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver(entries => entries.forEach(e => {
       if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
