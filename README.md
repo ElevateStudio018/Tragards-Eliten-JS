@@ -15,7 +15,7 @@ Alla förslag använder Poppins, rundade knappar och deras egna foton och texter
 
 ## Designregler (mot "AI-slop")
 
-- Riktigt foto över hela heron, vänsterställd text, en huvudknapp och telefonnumret som textlänk.
+- Heron fyller alltid hela skärmen (100 % av höjden) med ett riktigt foto, vänsterställd text, en huvudknapp och telefonnumret som textlänk.
 - Inga ikonkort i rader, inga etiketter ovanför rubriker, inga piller, statusprickar, glow eller gradienter.
 - Tjänster som en lista med linjer i stället för kort. Varierade kolumnbredder (7/5, 5/7, 6/5).
 - Pill-formade knappar, små radier på bilder och fält.
